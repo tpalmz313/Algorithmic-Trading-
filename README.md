@@ -117,8 +117,8 @@ Following this we seperate the data into testing and training.
 The time period that we worked with initally was 3 months. 
 
 ## Conclusion
-(Images/before_tune.png)
-(Images/after_tune.png)
+![before tuning](Images/before_tune.png)
+![after tuning](Images/after_tune.png)
 What impact resulted from increasing or decreasing the training window?
 
 answer: if the training window is increased, the model will have more data to learn from and should therefore be more accurate. if the training window is decreased, the model will have less data to learn from and may be less accurate. 
