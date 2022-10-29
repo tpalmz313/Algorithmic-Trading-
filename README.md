@@ -116,10 +116,6 @@ Following this we seperate the data into testing and training.
 
 The time period that we worked with initally was 3 months. 
 
-## Conclusion
-![before tuning](Images/before_tune.png)
-![after tuning](Images/after_tune.png)
-
 What impact resulted from increasing or decreasing the training window?
 
 answer: if the training window is increased, the model will have more data to learn from and should therefore be more accurate. if the training window is decreased, the model will have less data to learn from and may be less accurate. 
@@ -128,6 +124,15 @@ What impact resulted from increasing or decreasing either or both of the SMA win
 
 answer: The effect of changing the SMA window is dependent on the direction of the change. An increase in the SMA window will result in the moving average line being shifted to the right. This is because the new data point is being added to the average and the old data point is being dropped. A decrease in the SMA window will have the opposite effect and shift the moving average line to the left.
 
+---
+
+## Conclusion
+
+![after tuning](Images/after_tune.png)
+
+
+In conclusion, 
+we can see that SVM learning works well in terms of an algorthimic trading bot being built to aid in a trading strategy.
 
 
 © 2022 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
