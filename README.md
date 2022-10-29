@@ -102,7 +102,7 @@ In the previous sections, you updated your `README.md` file with your conclusion
 
 * Submit the link to your GitHub project to Bootcamp Spot.
 
-## Submission Report
+## Summary Evaluation Report
 ---
 First we figure out where our Baseline Performance stands.
 
@@ -115,6 +115,24 @@ Then, using short and long window SMA values, we can generate trading signals.
 Following this we seperate the data into testing and training.
 
 The time period that we worked with initally was 3 months. 
+
+we used the SVC classifier model to fit our training data and make predictions based on our testing data.
+
+![svm](Images/svm.png)
+
+we look over the classification report that is associated with the SVC model predictions. The original classification report shows that the model should be useful. Although the numbers appear to be good, the performance of this strategy is not adequate to our standards. 
+
+![svm_modeling](Images/svm_model.png)
+
+we create a predictions DataFrame that contains columns for “Predicted” values, “Actual Returns”, and “Strategy Returns”.
+
+![step_6](Images/step6.png)
+
+we create a cumulative return plot that compares the actual returns vs. the strategy returns. This will serve as a baseline against which to compare the effects of tuning the trading algorithm.
+
+![baseline](Images/after_tune.png)
+
+next we tune the baseline trading algorithm, comparing the cumulative products of the strategy returns we will be able to choose the better fit.
 
 What impact resulted from increasing or decreasing the training window?
 
