@@ -102,6 +102,31 @@ In the previous sections, you updated your `README.md` file with your conclusion
 
 * Submit the link to your GitHub project to Bootcamp Spot.
 
+## Submission Report
 ---
+First we figure out where our Baseline Performance stands.
+
+Next, we run the provided code to where that baseline is for the trading algorithm.
+
+the process starts via Importing the OHLCV dataset.
+
+Then, using short and long window SMA values, we can generate trading signals.
+
+Following this we seperate the data into testing and training.
+
+The time period that we worked with initally was 3 months. 
+
+## Conclusion
+(Images/before_tune.png)
+(Images/after_tune.png)
+What impact resulted from increasing or decreasing the training window?
+
+answer: if the training window is increased, the model will have more data to learn from and should therefore be more accurate. if the training window is decreased, the model will have less data to learn from and may be less accurate. 
+
+What impact resulted from increasing or decreasing either or both of the SMA windows?
+
+answer: The effect of changing the SMA window is dependent on the direction of the change. An increase in the SMA window will result in the moving average line being shifted to the right. This is because the new data point is being added to the average and the old data point is being dropped. A decrease in the SMA window will have the opposite effect and shift the moving average line to the left.
+
+
 
 © 2022 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
